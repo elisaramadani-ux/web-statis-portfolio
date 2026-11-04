@@ -1,0 +1,1183 @@
+/* p {
+    font-family: 'Times New Roman' ;
+    font-size: 40px;
+    color: cadetblue;
+}
+body{
+    background-color: lavender;
+    font family: arial,sans-serif;
+}
+
+nav{
+   background-color: plum;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+section {
+background-color:white;
+border-radius: 15px;
+min-height: 100vh
+padding: 20px;
+margin: 20px auto;
+box-shadow:0 4px 8px lighgray;
+
+}
+
+h3{
+    color:mediumorchid;
+    font-size: 25px;
+}
+
+article{
+    color: black;
+    padding: 10px;
+    line-height: 1.8;
+}
+
+h1{
+    text-align: center;
+    color: mediumpurple;
+    font-size: 35px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    nav a:hover{
+        color:white
+        text-decoration:underline;
+    }
+} */
+
+
+
+
+/* section {
+    min-height: 100vh;
+} */
+
+/* section{
+    min-height: 100vh;
+}
+
+.KotakBlack {
+    display: flex;
+    gap: ;
+} */
+
+/* {
+    font-family: Georgia, serif;
+    background: #fff0f5;
+    color: #6b3f4a;
+    text-align: center;
+}
+
+h1 {
+    background: #e8a9b8;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px;
+    box-shadow: 0 5px 15px #d9a0ad;
+}
+
+.buku {
+    display: inline-block;
+    width: 210px;
+    margin: 15px;
+    padding: 25px;
+    background: #fff;
+    border: 2px solid #f0b6c5;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px #e4c5cc;
+}
+
+.buku h2 {
+    color: #b45f75;
+}
+
+.buku p {
+    color: #8a626b;
+    font-weight: bold;
+}
+
+button {
+    background: #d77f98;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b95d77;
+} */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff5f8;
+    color: #4a2432;
+    line-height: 1.6;
+}
+
+/* HEADER */
+ /* =========================
+   PENDIDIKAN
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --pink: #e78aaa;
+    --pink-dark: #d66f91;
+    --pink-light: #fff0f5;
+
+    --cream: #fffaf7;
+    --white: #ffffff;
+
+    --brown: #5a4545;
+    --gray: #786b6b;
+
+    --shadow: 0 8px 25px rgba(180, 110, 135, 0.12);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-color: var(--cream);
+
+    color: var(--brown);
+
+    line-height: 1.7;
+}
+
+
+/* ==================================================
+   NAVBAR
+================================================== */
+
+header {
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 8%;
+
+    background-color: rgba(255, 250, 247, 0.95);
+
+    border-bottom: 1px solid #f3d9e1;
+
+    backdrop-filter: blur(10px);
+}
+
+
+/* LOGO */
+
+.logo {
+    color: var(--pink);
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+/* NAVIGASI */
+
+nav ul {
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    color: var(--brown);
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--pink);
+}
+
+
+/* ==================================================
+   SECTION UMUM
+================================================== */
+
+section {
+    padding: 90px 8%;
+}
+
+
+/* JUDUL SECTION */
+
+section > h3 {
+    text-align: center;
+
+    color: var(--pink);
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 5px;
+
+    text-transform: uppercase;
+}
+
+section > h2 {
+    text-align: center;
+
+    color: var(--brown);
+
+    font-size: 32px;
+
+    margin-bottom: 40px;
+}
+
+
+/* ==================================================
+   BERANDA
+================================================== */
+
+.hero {
+    min-height: 90vh;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 120px 10% 80px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fffaf7,
+            #fff0f5
+        );
+}
+
+
+/* TEKS */
+
+.hero-text {
+    max-width: 550px;
+}
+
+.salam {
+    color: var(--pink);
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    margin-bottom: 5px;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+
+    line-height: 1.2;
+
+    color: var(--brown);
+
+    margin-bottom: 10px;
+}
+
+.hero-text h1 span {
+    color: var(--pink);
+}
+
+.profesi {
+    color: var(--pink-dark);
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+    margin-bottom: 15px;
+}
+
+.deskripsi {
+    color: var(--gray);
+
+    font-size: 16px;
+
+    margin-bottom: 25px;
+}
+
+
+/* BUTTON */
+
+button {
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--pink),
+            var(--pink-dark)
+        );
+
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 7px 18px rgba(231, 138, 170, 0.25);
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(231, 138, 170, 0.35);
+}
+
+
+/* FOTO BERANDA */
+
+.hero-image {
+    position: relative;
+
+    width: 350px;
+
+    height: 350px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+/* LINGKARAN */
+
+.lingkaran {
+    position: absolute;
+
+    width: 300px;
+
+    height: 300px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f9cedd,
+            #f5b9ce
+        );
+}
+
+
+/* FOTO */
+
+.hero-image img {
+    position: relative;
+
+    width: 270px;
+
+    height: 270px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 8px solid white;
+
+    box-shadow:
+        0 15px 35px rgba(150, 90, 110, 0.18);
+}
+
+
+/* ==================================================
+   TENTANG SAYA
+================================================== */
+
+#tentang {
+    background-color: var(--white);
+
+    text-align: center;
+}
+
+#tentang article {
+    max-width: 750px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    color: var(--gray);
+
+    background-color: var(--pink-light);
+
+    border-radius: 20px;
+
+    box-shadow: var(--shadow);
+}
+
+
+/* ==================================================
+   PORTFOLIO
+================================================== */
+
+#portfolio {
+    background-color: #fff8fa;
+}
+
+.portfolio-grid {
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+/* CARD */
+
+.card {
+    overflow: hidden;
+
+    background-color: var(--white);
+
+    border-radius: 18px;
+
+    box-shadow: var(--shadow);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 15px 30px rgba(180, 110, 135, 0.17);
+}
+
+
+/* FOTO / BAGIAN ATAS CARD */
+
+.card-image {
+    height: 180px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f7c5d5,
+            #eccfe1
+        );
+}
+
+
+/* ISI CARD */
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h4 {
+    color: var(--pink-dark);
+
+    font-size: 18px;
+
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    color: var(--gray);
+
+    font-size: 13px;
+}
+
+
+/* ==================================================
+   PENDIDIKAN
+   STYLE INI DIPERTAHANKAN
+================================================== */
+
+#pendidikan {
+    background-color: #fff5f8;
+
+    padding: 80px 10%;
+}
+
+#pendidikan > h3 {
+    text-align: center;
+
+    color: #e78aaa;
+
+    margin-bottom: 5px;
+}
+
+#pendidikan > h2 {
+    text-align: center;
+
+    color: #333;
+
+    margin-bottom: 40px;
+}
+
+
+/* LIST PENDIDIKAN */
+
+.pendidikan-list {
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+/* KARTU SEKOLAH */
+
+.pendidikan-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+
+/* HOVER */
+
+.pendidikan-item:hover {
+    transform: translateX(8px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* FOTO / LOGO SEKOLAH */
+
+.pendidikan-item img {
+    width: 90px;
+
+    height: 90px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    flex-shrink: 0;
+}
+
+
+/* INFORMASI */
+
+.pendidikan-info {
+    flex: 1;
+}
+
+
+/* TAHUN */
+
+.pendidikan-info span {
+    display: block;
+
+    color: #e78aaa;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+
+/* NAMA SEKOLAH */
+
+.pendidikan-info h3 {
+    margin: 0 0 5px;
+
+    font-size: 20px;
+
+    color: #333;
+}
+
+
+/* KETERANGAN */
+
+.pendidikan-info p {
+    margin: 0;
+
+    font-size: 14px;
+
+    color: #777;
+}
+
+
+/* ==================================================
+   PENGALAMAN
+================================================== */
+
+#pengalaman {
+    background-color: white;
+
+    text-align: center;
+}
+
+#pengalaman article {
+    max-width: 750px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    color: var(--gray);
+
+    background-color: var(--pink-light);
+
+    border-radius: 20px;
+
+    box-shadow: var(--shadow);
+}
+
+
+/* ==================================================
+   HOBI
+================================================== */
+
+#hobi {
+    background-color: #fff5f8;
+
+    text-align: center;
+}
+
+#hobi > p {
+    max-width: 750px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    color: var(--gray);
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    box-shadow: var(--shadow);
+}
+
+
+/* ==================================================
+   KONTAK
+================================================== */
+
+#kontak {
+    background:
+        linear-gradient(
+            135deg,
+            #fffaf7,
+            #fff0f5
+        );
+
+    text-align: center;
+}
+
+#kontak article {
+    max-width: 650px;
+
+    margin: 0 auto 25px;
+
+    color: var(--gray);
+}
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+footer {
+    padding: 25px;
+
+    text-align: center;
+
+    background-color: var(--brown);
+
+    color: #fff0f5;
+
+    font-size: 13px;
+}
+
+
+/* ==================================================
+   RESPONSIVE TABLET
+================================================== */
+
+@media (max-width: 900px) {
+
+    header {
+        padding: 15px 5%;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+
+    .hero {
+        padding-left: 7%;
+
+        padding-right: 7%;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+    }
+
+
+    .portfolio-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+/* ==================================================
+   RESPONSIVE HP
+================================================== */
+
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+
+    header {
+        position: relative;
+
+        flex-direction: column;
+
+        gap: 12px;
+
+        padding: 15px 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 10px 15px;
+    }
+
+
+    /* SECTION */
+
+    section {
+        padding: 65px 20px;
+    }
+
+
+    section > h2 {
+        font-size: 26px;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        min-height: auto;
+
+        padding-top: 70px;
+
+        gap: 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .deskripsi {
+        font-size: 14px;
+    }
+
+
+    /* FOTO HERO */
+
+    .hero-image {
+        width: 280px;
+
+        height: 280px;
+    }
+
+    .lingkaran {
+        width: 240px;
+
+        height: 240px;
+    }
+
+    .hero-image img {
+        width: 215px;
+
+        height: 215px;
+    }
+
+
+    /* PORTFOLIO */
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* PENDIDIKAN
+       TETAP SEPERTI STYLE SEBELUMNYA
+    */
+
+    .pendidikan-item {
+        padding: 18px;
+
+        gap: 15px;
+    }
+
+    .pendidikan-item img {
+        width: 70px;
+
+        height: 70px;
+    }
+
+    .pendidikan-info h3 {
+        font-size: 17px;
+    }
+
+    .pendidikan-info span {
+        font-size: 12px;
+    }
+
+    .pendidikan-info p {
+        font-size: 12px;
+    }
+
+
+    /* TENTANG & PENGALAMAN */
+
+    #tentang article,
+    #pengalaman article,
+    #hobi > p {
+        padding: 20px;
+
+        font-size: 14px;
+    }
+    /* ==================================================
+   KONTAK / HUBUNGI SAYA
+================================================== */
+
+#kontak {
+    background:
+        linear-gradient(
+            135deg,
+            #fffaf7,
+            #fff0f5
+        );
+
+    text-align: center;
+}
+
+
+/* DESKRIPSI */
+
+.kontak-deskripsi {
+    max-width: 600px;
+
+    margin: -20px auto 35px;
+
+    color: #786b6b;
+
+    font-size: 14px;
+}
+
+
+/* LIST KONTAK */
+
+.kontak-list {
+    max-width: 800px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+/* ITEM KONTAK */
+
+.kontak-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 18px;
+
+    text-decoration: none;
+
+    text-align: left;
+
+    box-shadow:
+        0 8px 25px rgba(180, 110, 135, 0.10);
+
+    transition: 0.3s;
+}
+
+
+/* HOVER */
+
+.kontak-item:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 12px 30px rgba(180, 110, 135, 0.18);
+}
+
+
+/* ICON */
+
+.kontak-icon {
+    width: 55px;
+
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 15px;
+
+    font-size: 25px;
+
+    flex-shrink: 0;
+
+    background-color: #fff0f5;
+}
+
+
+/* TEKS */
+
+.kontak-item span {
+    display: block;
+
+    color: #999;
+
+    font-size: 12px;
+
+    margin-bottom: 3px;
+}
+
+.kontak-item strong {
+    display: block;
+
+    color: #5a4545;
+
+    font-size: 15px;
+}
+
+
+/* WARNA MASING-MASING */
+
+
+/* Instagram */
+
+.instagram:hover {
+    border-left: 5px solid #e1306c;
+}
+
+.instagram .kontak-icon {
+    background-color: #ffe5ee;
+}
+
+
+/* WhatsApp */
+
+.whatsapp:hover {
+    border-left: 5px solid #25d366;
+}
+
+.whatsapp .kontak-icon {
+    background-color: #e4f9ec;
+}
+
+
+/* TikTok */
+
+.tiktok:hover {
+    border-left: 5px solid #111;
+}
+
+.tiktok .kontak-icon {
+    background-color: #eeeeee;
+}
+
+
+/* Email */
+
+.email:hover {
+    border-left: 5px solid #e78aaa;
+}
+
+.email .kontak-icon {
+    background-color: #fff0f5;
+}
+
+
+/* ==================================================
+   KONTAK - HP
+================================================== */
+
+@media (max-width: 600px) {
+
+    .kontak-list {
+        grid-template-columns: 1fr;
+    }
+
+    .kontak-item {
+        padding: 15px;
+    }
+}
+.card-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+}
+
+
+
+/* }  */
+
+
+
+
+
+
+
+
+
+
+
+
+
